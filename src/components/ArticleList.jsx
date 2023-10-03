@@ -19,7 +19,7 @@ function ArticleList({ articles }) {
           Click the donload button 👉{" "}
           <span>
             <a
-              href="https://github.com/ITACHI1117/A-G-Auto-Policy-Push-Software/archive/refs/heads/main.zip"
+              href="https://github.com/ITACHI1117/AG-Push-exe/archive/refs/heads/main.zip"
               className={articleStyles.downloadButt}
               download="A&Gsetup"
             >
