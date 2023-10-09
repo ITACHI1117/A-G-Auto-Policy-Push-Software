@@ -124,8 +124,7 @@ function ArticleList({ articles }) {
           range, attempt a manual push for that range.
         </li>
         <li>
-          Software Update: Check for software updates at
-          https://github.com/ITACHI1117/A-G-Auto-Policy-Push-Software.
+          Software Update: The software gets updated periodically so you can always check this site for new updates 
         </li>
       </ul>
 
