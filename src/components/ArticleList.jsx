@@ -26,7 +26,7 @@ function ArticleList({ articles }) {
               Downlaod
             </a>{" "}
           </span>
-          <i> Version 2.1</i>
+          <i> Version 2.5</i>
         </li>
         <li>
           After downloading the ZIP file, extract its contents to a location of
@@ -89,6 +89,10 @@ function ArticleList({ articles }) {
           The start and end dates will increment by 5 each time until the end of
           the current month or the current date of the month is reached.
         </li>
+        <p>
+          Note: <br />
+          When the Show Chrome Window button is ON, While pushing policies the chrome windows will pop if they are OFF the Windows will be hidden 
+        </p>
       </ul>
 
       <h1>Handling Errors Pushing Manually</h1>
