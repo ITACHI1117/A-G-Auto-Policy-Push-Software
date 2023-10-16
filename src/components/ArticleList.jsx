@@ -3,7 +3,7 @@ import articleStyles from "@/styles/Article.module.css";
 function ArticleList({ articles }) {
   return (
     <main className={articleStyles.card}>
-      <h1>A&G Policy Push Software</h1>
+      <h1>A&G Policy Update Software</h1>
       <p>
         The A&G Policy Update Software represents a sophisticated tool designed
         to streamline and expedite the process of policy corrections. Its core
@@ -18,7 +18,7 @@ function ArticleList({ articles }) {
         Nigerian Insurance industry.
       </p>
       <h1>Installation </h1>
-      <p>To install A&G Policy Push Software, follow these simple steps:</p>
+      <p>To install A&G Policy Update Software, follow these simple steps:</p>
       <ul>
         <li>
           Click the donload button 👉{" "}

@@ -10,11 +10,11 @@ function ArticleList2() {
         streamline the process of automatically downloading policies from the
         A&G platform and seamlessly pushing them to the Nigerian Insurance
         Industry Database (NIID). This tool offers both manual and automatic
-        policy update capabilities, enhancing efficiency in the insurance
-        industry. Here's how to get started with A&G Policy Updater:
+        policy push capabilities, enhancing efficiency in the insurance
+        industry. Here's how to get started with A&G Policy Push Software:
       </p>
       <h1>Installation </h1>
-      <p>To install A&G Policy Update Software, follow these simple steps:</p>
+      <p>To install A&G Policy Push Software, follow these simple steps:</p>
       <ul>
         <li>
           Click the donload button 👉{" "}
