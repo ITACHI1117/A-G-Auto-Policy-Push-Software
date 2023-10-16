@@ -5,28 +5,33 @@ function ArticleList({ articles }) {
     <main className={articleStyles.card}>
       <h1>A&G Policy Push Software</h1>
       <p>
-        A&G Policy Updater is a robust software solution designed to streamline
-        the process of automatically downloading policies from the A&G platform
-        and seamlessly pushing them to the Nigerian Insurance Industry Database
-        (NIID). This tool offers both manual and automatic policy update
-        capabilities, enhancing efficiency in the insurance industry. Here's how
-        to get started with A&G Policy Updater:
+        The A&G Policy Update Software represents a sophisticated tool designed
+        to streamline and expedite the process of policy corrections. Its core
+        functionality is centered around automating the update procedure,
+        thereby significantly enhancing the efficiency of policy updates. Users
+        are required to furnish the system with the pertinent policy details
+        necessitating modifications. Upon submission, the software seamlessly
+        initiates an automated workflow, proficiently orchestrating the update
+        operation. This results in the simultaneous and accurate synchronization
+        of policy information across both the A&G Platform and the National
+        Insurance Information Database (NIID), a critical component of the
+        Nigerian Insurance industry.
       </p>
       <h1>Installation </h1>
-      <p>To install A&G Policy Updater, follow these simple steps:</p>
+      <p>To install A&G Policy Push Software, follow these simple steps:</p>
       <ul>
         <li>
           Click the donload button 👉{" "}
           <span>
             <a
-              href="https://github.com/ITACHI1117/AG-Push-exe/archive/refs/heads/main.zip"
+              href="https://github.com/ITACHI1117/A-G-update-exe/archive/refs/heads/main.zip"
               className={articleStyles.downloadButt}
               download="A&Gsetup"
             >
               Downlaod
             </a>{" "}
           </span>
-          <i> Version 2.5</i>
+          <i> Version 1.5</i>
         </li>
         <li>
           After downloading the ZIP file, extract its contents to a location of
@@ -50,101 +55,69 @@ function ArticleList({ articles }) {
         </p>
       </ul>
 
-      <h2 className={articleStyles.heading}>
-        How to use the Software and handle errors
-      </h2>
+      <h2 className={articleStyles.heading}>How to use the Software</h2>
       <h1>Pushing Policies Manually</h1>
-      <p>A&G Policy Updater makes manual policy updates a breeze:</p>
-      <ul>
-        <li>Launch the application.</li>
-        <li>
-          Use the date selector to manually define the start and end dates for
-          the policies you wish to push.
-        </li>
-        <li>Click the "Push" button.</li>
-        <li>
-          The automated processes will commence, and your policies will be
-          pushed to NIID in a matter of 3-5 minutes.
-        </li>
-        <li>
-          After the push is completed, a new window will appear, displaying the
-          push results.
-        </li>
-      </ul>
-
-      <h1>Pushing Policies Automatically </h1>
       <p>
-        A&G Policy Updater offers an automated policy push feature for your
-        convenience:
+        The platform offers the flexibility of updating policies through both
+        the Scratch Card and E-Pin modules, allowing users to seamlessly switch
+        between these platforms by simply clicking on the respective Scratch
+        Card or E-Pin buttons. <br /> <br /> Additionally, the interface
+        includes a 'Running Updates' button, which, while not clickable, serves
+        to display the real-time count of ongoing update processes. This feature
+        ensures users are kept informed about the progress of their policy
+        updates. <br /> <br /> For user convenience, there is a 'Show Chrome
+        Window' button, which can be toggled on or off. When set to 'OFF,' the
+        Chrome window will not appear during the policy correction process,
+        contributing to a smoother user experience. <br /> <br /> The data entry
+        forms have been meticulously designed for self-explanatory and
+        user-friendly interactions. To ensure the accuracy of policy updates, it
+        is imperative that users input policy details without spaces. Errors
+        stemming from spaces in the policy details can impede the correction
+        process, necessitating manual intervention. <br />
+        <br /> Policy verification can be conducted using the certificate
+        number, which serves as a reliable identifier. Upon successful policy
+        correction, an informative pop-up message will confirm the update,
+        displaying the policy number alongside a corresponding update message.
+        In cases where errors occur, an error message will be presented,
+        offering insight into the nature of the issue encountered during the
+        update process. This transparent feedback mechanism ensures a smoother
+        and more effective policy correction experience for users.
       </p>
-      <ul>
-        <li>Open the application.</li>
-        <li>Click the "Push Automatically" button.</li>
-        <li>
-          The automated process will start, initiating policy pushes starting
-          from January of the current year. The start date will be set to the
-          1st, and the end date will be set to the 5th.
-        </li>
-        <li>
-          The start and end dates will increment by 5 each time until the end of
-          the current month or the current date of the month is reached.
-        </li>
-        <p>
-          Note: <br />
-          When the Show Chrome Window button is ON, While pushing policies the chrome windows will pop if they are OFF the Windows will be hidden 
-        </p>
-      </ul>
 
-      <h1>Handling Errors Pushing Manually</h1>
+      <h1>Handling Errors</h1>
       <p>
-        When pushing policies manually, you might encounter errors, typically
-        due to a poor network connection or an excessively long date range. To
-        resolve these issues:
+        In the event that an unforeseen error hinders the policy correction
+        process, the following systematic steps are recommended for resolving
+        the issue:
       </p>
       <ul>
         <li>
-          Network Connection: Ensure you have a strong network connection to
-          prevent network-related errors.
+          Enable Chrome Window Display: If the Chrome window display has been
+          disabled, kindly activate it by turning it ON. This step ensures that
+          the necessary visual interface is available for the correction
+          process.
         </li>
         <li>
-          Date Range: Keep the date range within reasonable limits, preferably
-          as a multiple of 5, to minimize errors.
+          Outdated Chrome Driver: If the Chrome window either briefly appears
+          and promptly closes or fails to display at all, this typically
+          indicates an issue related to an outdated Chrome driver. To address
+          this, it is advisable to update the Chrome driver to its latest
+          version, ensuring compatibility with the software.
+        </li>
+        <li>
+          Software Update: If the aforementioned steps do not rectify the
+          problem, consider updating the software itself. Software updates often
+          include bug fixes, performance enhancements, and compatibility
+          improvements that can mitigate unexpected errors and ensure the smooth
+          functioning of the policy correction system.
         </li>
       </ul>
-
-      <h1>Handling Errors Pushing Automatically</h1>
       <p>
-        While pushing policies automatically, a few errors may occur, including
-        the absence of text in the log file, slow automated processes, or
-        unexpected errors causing the process to halt. To address these issues:
-      </p>
-      <ul>
-        <li>
-          Network Connection: Confirm that you have a reliable network
-          connection.
-        </li>
-        <li>
-          If automatic push fails to return any messages for a specific date
-          range, attempt a manual push for that range.
-        </li>
-        <li>
-          Software Update: The software gets updated periodically so you can always check this site for new updates 
-        </li>
-      </ul>
-
-      <p>
-        A&G Policy Updater empowers insurance professionals with efficient
-        policy update capabilities, offering both manual and automatic options
-        while providing solutions to common error scenarios. Enjoy a seamless
-        policy management experience with A&G Policy Updater!
+        By adhering to these steps, users can effectively diagnose and resolve
+        unknown errors that may impede the policy correction process, ultimately
+        optimizing the performance and reliability of the software.
       </p>
     </main>
-
-    // <div className={articleStyles.grid}>
-    //   {articles.posts.map((post) => (
-    //     <ArticleItem post={post} key={post.id} />
-    //   ))}
-    // </div>
   );
 }
 
