@@ -56,7 +56,7 @@ function ArticleList({ articles }) {
       </ul>
 
       <h2 className={articleStyles.heading}>How to use the Software</h2>
-      <h1>Pushing Policies Manually</h1>
+      
       <p>
         The platform offers the flexibility of updating policies through both
         the Scratch Card and E-Pin modules, allowing users to seamlessly switch
