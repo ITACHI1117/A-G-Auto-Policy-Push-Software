@@ -3,9 +3,9 @@ import articleStyles from "@/styles/Article.module.css";
 function ArticleList({ articles }) {
   return (
     <main className={articleStyles.card}>
-      <h1>A&G Policy Update Software</h1>
+      <h1>A&G Policy Correction Software</h1>
       <p>
-        The A&G Policy Update Software represents a sophisticated tool designed
+        The A&G Policy Correction Software represents a sophisticated tool designed
         to streamline and expedite the process of policy corrections. Its core
         functionality is centered around automating the update procedure,
         thereby significantly enhancing the efficiency of policy updates. Users
@@ -18,7 +18,7 @@ function ArticleList({ articles }) {
         Nigerian Insurance industry.
       </p>
       <h1>Installation </h1>
-      <p>To install A&G Policy Update Software, follow these simple steps:</p>
+      <p>To install A&G Policy Correction Software, follow these simple steps:</p>
       <ul>
         <li>
           Click the donload button 👉{" "}
@@ -31,7 +31,7 @@ function ArticleList({ articles }) {
               Downlaod
             </a>{" "}
           </span>
-          <i> Version 2.0</i>
+          <i> Version 3.0</i>
         </li>
         <li>
           After downloading the ZIP file, extract its contents to a location of
