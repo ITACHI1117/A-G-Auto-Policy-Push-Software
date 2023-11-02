@@ -33,7 +33,7 @@ function Header() {
                 color: "white",
               }}
             >
-              A&G Policy Update Software
+              A&G Policy Correction Software
             </p>
           </Link>
           <Link href="/article2">
