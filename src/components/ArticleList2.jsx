@@ -27,7 +27,7 @@ function ArticleList2() {
               Downlaod
             </a>{" "}
           </span>
-          <i> Version 2.5</i>
+          <i> Version 3.0</i>
         </li>
         <li>
           After downloading the ZIP file, extract its contents to a location of
