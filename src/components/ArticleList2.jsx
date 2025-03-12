@@ -20,7 +20,7 @@ function ArticleList2() {
           Click the donload button 👉{" "}
           <span>
             <a
-              href="https://github.com/ITACHI1117/AG-Push-exe/archive/refs/heads/main.zip"
+              href="https://github.com/ITACHI1117/AG-Push-exe/raw/refs/heads/main/A&Gsetup.exe"
               className={articleStyles.downloadButt}
               download="A&Gsetup"
             >

@@ -24,7 +24,7 @@ function ArticleList({ articles }) {
           Click the donload button 👉{" "}
           <span>
             <a
-              href="https://github.com/ITACHI1117/A-G-update-exe/archive/refs/heads/main.zip"
+              href="https://github.com/ITACHI1117/A-G-update-exe/raw/refs/heads/main/A&G%20Policy%20Updater%20setup.exe"
               className={articleStyles.downloadButt}
               download="A&Gsetup"
             >
@@ -32,10 +32,6 @@ function ArticleList({ articles }) {
             </a>{" "}
           </span>
           <i> Version 3.5</i>
-        </li>
-        <li>
-          After downloading the ZIP file, extract its contents to a location of
-          your choice on your computer.
         </li>
         <li>
           Locate and run the setup file. Follow the setup wizard's instructions
