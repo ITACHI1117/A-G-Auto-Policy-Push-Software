@@ -30,10 +30,6 @@ function ArticleList2() {
           <i> Version 4.0</i>
         </li>
         <li>
-          After downloading the ZIP file, extract its contents to a location of
-          your choice on your computer.
-        </li>
-        <li>
           Locate and run the setup file. Follow the setup wizard's instructions
           to initiate the installation process.
         </li>
