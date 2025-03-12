@@ -20,7 +20,7 @@ function ArticleList2() {
           Click the donload button 👉{" "}
           <span>
             <a
-              href="https://github.com/ITACHI1117/AG-Push-exe/raw/refs/heads/main/A&Gsetup.exe"
+              href="https://a-g-auto-policy-push-software.vercel.app/A&G%20Policy%20Push%20Setup.exe"
               className={articleStyles.downloadButt}
               download="A&Gsetup"
             >
