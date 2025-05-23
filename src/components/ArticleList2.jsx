@@ -27,7 +27,7 @@ function ArticleList2() {
               Downlaod
             </a>{" "}
           </span>
-          <i> Version 4.0</i>
+          <i> Version 4.5</i>
         </li>
         <li>
           Locate and run the setup file. Follow the setup wizard's instructions
